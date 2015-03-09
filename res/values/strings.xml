@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KidsList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">KidsList Menu Opened</string>
+    <string name="drawer_close">KidsList Menu Closed</string>
+    <string name="hello">Hello World, Todo!</string>
+    <string name="no_todos">Currently there are no Todo items maintained</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete Todo</string>
+    <string name="todo_summary">Summary</string>
+    <string name="todo_description">Delete</string>
+    <string name="todo_edit_summary">Summary</string>
+    <string name="todo_edit_description">Description</string>
+    <string name="todo_edit_confirm">Confirm</string>
+    <string name="todo_edit_status">Status</string>
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET MY LOCATION</string>
+    <string name="btn_start_location_updates">START LOCATION UPDATES</string>
+    <string name="btn_stop_location_updates">STOP LOCATION UPDATES</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>To Do</item>
+        <item>Done</item>
+        <item>Points</item>
+    </string-array>
+    <string-array name="priorities">
+        <item>Urgent</item>
+        <item>Reminder</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_todo</item>
+        <item>@drawable/ic_done</item>
+        <item>@drawable/ic_points</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_todo_detail">TodoDetailActivity</string>
+    <string name="title_activity_gps">GPSActivity</string>
+    <string name="menu_edit">Edit</string>
+    <string name="title_activity_camera">Camera</string>
+
+</resources>
